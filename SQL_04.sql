@@ -53,7 +53,7 @@ mysql> ALTER TABLE livre MODIFY COLUMN date_creation DATE;
 mysql> ALTER TABLE livres MODIFY COLUMN date_creation DATE;
 Query OK, 10 rows affected, 10 warnings (0.14 sec)
 Records: 10  Duplicates: 0  Warnings: 10
-
+------------------------------------------------------------------------------
 mysql> SELECT * FROM livres;
 +----+--------------------------+---------------+-----------+--------------+
 | id | titre                    | date_creation | auteur_id | categorie_id |
